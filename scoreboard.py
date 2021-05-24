@@ -3,7 +3,7 @@ from pygame.sprite import Group
 from ship.life_class import ShipLife
 
 
-class Scoreboard():
+class Scoreboard:
     """Класс для вывода игровой информации и статистики."""
 
     def __init__(self, ai_settings, screen, stats):
@@ -22,7 +22,6 @@ class Scoreboard():
         self.prep_high_score()
         self.prep_level()
         self.prep_lifes()
-
 
     def prep_score(self):
         """Преобразует текущий счет в графическое изображение."""

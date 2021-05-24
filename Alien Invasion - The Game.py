@@ -18,7 +18,7 @@ def run_game():
     clock = pygame.time.Clock()
 
     # Создание кнопки Play
-    play_button = Button(ai_settings, screen, "Press P for Start")
+    play_button = Button(screen, "Press P for Start")
 
     # Создание экземпляров статистики и вывода счета
     stats = GameStats(ai_settings)
