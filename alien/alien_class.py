@@ -21,10 +21,6 @@ class Alien(Sprite):
         self.x = float(self.rect.x)
         self.y = float(self.rect.y)
 
-    # def blitme(self):
-    #     """Выводит пришельца на экран."""
-    #     self.screen.blit(self.image, self.rect)
-
     def update(self):
         """Перемещает пришельца."""
         self.x += (self.settings.alien_speed_factor * self.settings.fleet_direction)

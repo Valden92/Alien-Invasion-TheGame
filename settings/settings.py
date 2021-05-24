@@ -49,7 +49,6 @@ class Settings_AI:
         self.starship_speed_factor = 1.5
         self.bullet_speed_factor = 2
         self.alien_speed_factor = 1
-
         self.fleet_direction = 1
 
         # Подсчет очков
@@ -61,4 +60,3 @@ class Settings_AI:
         self.bullet_speed_factor *= self.speedup_scale
         self.alien_speed_factor *= self.speedup_scale
         self.alien_points = int(self.alien_points * self.score_scale)
-        # print(self.alien_points)

@@ -1,7 +1,7 @@
 import json
 
 
-class GameStats():
+class GameStats:
     """Отслеживание статистики игры."""
 
     def __init__(self, ai_settings):
