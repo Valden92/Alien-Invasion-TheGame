@@ -127,7 +127,7 @@ def update_bullets(ai_settings, screen, stats, sb, starship, aliens, bullets):
 def check_bullets_alien_collisions(ai_settings, screen, stats, sb, starship, aliens, bullets):
     """Обработка коллизий пуль с пришельцами."""
     # Проверка попаданий в пришельцев
-    collisions = pygame.sprite.groupcollide(bullets, aliens, False, True)
+    collisions = pygame.sprite.groupcollide(bullets, aliens, True, True)
     if collisions:
         for aliens in collisions.values():
             stats.score += ai_settings.alien_points * len(aliens)

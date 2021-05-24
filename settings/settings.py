@@ -19,8 +19,8 @@ class Settings_AI:
 
         # Параметры снарядов
         self.bullet_speed_factor = 2
-        self.bullet_width = 300
-        self.bullet_height = 4
+        self.bullet_width = 5
+        self.bullet_height = 7
         self.bullet_color = 20, 200, 60
         self.bullets_allowed = 100
 
