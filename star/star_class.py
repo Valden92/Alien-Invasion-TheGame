@@ -11,7 +11,6 @@ class Star(Sprite):
         self.screen = screen
         self.settings = ai_settings
 
-        # self.image = pygame.image.load('image/star.bmp')
         self.rect = pygame.Rect(0, 0, ai_settings.star_width, ai_settings.star_height)
         self.color = ai_settings.star_color
         self.drop_factor = ai_settings.stars_drop_speed
