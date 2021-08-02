@@ -1,6 +1,8 @@
 # Alien Invasion - The Game #
  Простая игра, написанная с помощью учебника "Python Crash Course".
  Представляет из себя подобие Galaga.
+ 
+ Для работы игры требуется модуль pygame.
  ____
   #### Запуск игры с помощью файла 'Alien Invasion - The Game.py'. ####
   
